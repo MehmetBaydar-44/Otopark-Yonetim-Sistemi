@@ -1,0 +1,88 @@
+body {
+font-family: sans-serif;
+margin: 20px;
+background-color: #f4f4f9;
+}
+
+.panel {
+background: #fff; 
+padding: 20px; 
+border-radius: 8px; 
+box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+max-width: 600px; 
+margin: auto;      
+}
+
+input, select, button { 
+padding: 10px; 
+margin: 5px 0; 
+width: 100%; 
+box-sizing: border-box; 
+}
+  
+button { 
+background-color: #28a745; 
+color: white; 
+border: none; 
+cursor: pointer; 
+border-radius: 4px; 
+}
+        
+button:hover { 
+background-color: #218838; 
+}
+
+.hata { 
+background: #ffdddd; 
+border-left: 4px solid #f44336; 
+padding: 10px; 
+margin-bottom: 15px; 
+}
+
+.basarili { 
+background: #ddffdd; 
+border-left: 4px solid #4CAF50; 
+padding: 10px; 
+margin-bottom: 15px; 
+}
+
+.fiyat-bilgi { 
+background-color: #e9ecef; 
+padding: 10px; 
+border-radius: 5px;
+text-align: center; 
+font-weight: bold; 
+color: #495057; 
+margin-bottom: 15px; 
+border: 1px solid #ced4da; 
+}
+
+.kapasite { 
+background-color: #d1ecf1; 
+color: #0c5460; 
+padding: 10px; 
+border-radius: 5px; 
+margin-bottom: 15px; 
+border: 1px solid #bee5eb; 
+text-align: center; 
+font-weight: bold; 
+}
+        
+table { 
+width: 100%; 
+border-collapse: collapse; 
+margin-top: 15px; 
+}
+
+table, th, td { 
+border: 1px solid #ccc; 
+}
+
+th, td { 
+padding: 10px; 
+text-align: left; 
+}
+
+th { 
+background-color: #f2f2f2; 
+}
